@@ -22,7 +22,7 @@ public class Loader {
     String url = "jdbc:mysql://localhost:3306/farmers_markets";
     Connection conn = null;
     try {
-      conn = DriverManager.getConnection(url, "root", "sqlworkbench123");
+      conn = DriverManager.getConnection(url, "USERNAME", "PASSWORD");
     } catch(SQLException e) {
       e.printStackTrace();
       System.err.println("ERROR: <couldn't connect to database>");
