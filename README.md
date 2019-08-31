@@ -6,7 +6,7 @@ Search USA farmers markets in your area or in an area that you are travelling to
 2. Place the ```mysql-connector-java-8.0.17.jar``` file or whatever version you use within ```CATALINA_HOME/lib``` folder within Tomcat (e.g. Tomcat9/lib).
 3. Run the script ```load_database.cmd``` located in the ```scripts``` folder in order to load the database.
 4. Copy the WAR file to ```CATALINA_HOME/webapps``` then copy all remaining files and put them into the ```ROOT``` folder within the aforementioned directory. This must be done so the ```JSP``` file can access database credentials in ```credentials.txt```.
-5. Put your SQL username and password into ```credentials.txt``` in the form USERNAME:PASSWORD.
+5. Put your SQL username and password into ```credentials.txt``` in the form USERNAME:PASSWORD. Also manually enter your username and password in ```Loader.java``` where you see the strings "USERNAME" and "PASSWORD".
 6. Start the Tomcat server.
 7. For port number 8090, paste ```http://localhost:8090/markets/index.jsp``` into your browser to run the application locally.
 
