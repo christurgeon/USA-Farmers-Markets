@@ -5,11 +5,6 @@ import java.io.IOException;
 import java.io.FileNotFoundException;
 import java.sql.*;
 
-/*
-Compiling and running the database loader
-javac -cp ".;C:\Users\turgec\OneDrive\CS\App Progamming\Homework\hw5\markets\src\mysql-connector-java-8.0.17\mysql-connector-java-8.0.17.jar" Loader.java
-java -cp ".;C:\Users\turgec\OneDrive\CS\App Progamming\Homework\hw5\markets\src\mysql-connector-java-8.0.17\mysql-connector-java-8.0.17.jar" Loader
-*/
 
 public class Loader {
 
